@@ -1,0 +1,34 @@
+# Site settings
+title: Gaussian Process Summer School, 2015
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  The 2015 Gaussian Process Summer School held at the University of Sheffield.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://gpss.cc" # the base hostname & protocol for your site
+twitter_username: datascienceshef
+github_username:  SheffieldML
+facebook_page: gaussianprocesssummerschool
+
+youtube:
+  height: 315
+  width: 560
+
+conference:
+  hosts:
+  organizers:
+  - {name: Neil Lawrence, url: "http://inverseprobability.com"}
+  - {name: Javier Gonzalez, url: "http://staffwww.dcs.shef.ac.uk/people/R.Andrade_Pacheco/"}
+  - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
+  name: Gaussian Process Summer School
+  location: University of Sheffield, UK
+  year: 2015
+  month: September
+  dates:
+  - {date: 14, day: Monday, month: September, year: 2015}
+  - {date: 15, day: Tuesday, month: September, year: 2015}
+  - {date: 16, day: Wednesday, month: September, year: 2015}
+  - {date: 17, day: Thursday, month: September, year: 2015}
+  
+# Build settings
+markdown: kramdown
+
