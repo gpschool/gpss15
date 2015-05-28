@@ -2,6 +2,7 @@
 layout: page
 title: Registration
 tagline: joining our schools
+main: Y
 ---
 
 
@@ -10,7 +11,7 @@ Feature Extraction with GPs workshop, 18th September.
 
 ### Registration Fees:
 
-Attendee                                 | Early Bird Rate | Regular Rate
+Attendee                         | Early Bird Rate | Regular Rate
 ---------------------------------|-----------------|--------------
 Academic                 |  250 |  400
 Academic (workshop only) |   90 |  150
