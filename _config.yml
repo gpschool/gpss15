@@ -17,7 +17,7 @@ conference:
   hosts:
   organizers:
   - {name: Neil Lawrence, url: "http://inverseprobability.com"}
-  - {name: Javier Gonzalez, url: "http://staffwww.dcs.shef.ac.uk/people/R.Andrade_Pacheco/"}
+  - {name: Javier Gonzalez, url: "http://javiergonzalezh.github.io/"}
   - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
   name: Gaussian Process Summer School
   location: University of Sheffield, UK
