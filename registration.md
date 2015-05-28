@@ -10,13 +10,13 @@ Feature Extraction with GPs workshop, 18th September.
 
 ### Registration Fees:
 
-                                 | Early Bird Rate | Regular Rate
+Attendee                                 | Early Bird Rate | Regular Rate
 ---------------------------------|-----------------|--------------
-Academic Attendees                |  250 |  400
-Academic Attendees(workshop only) |   90 |  150
-Industrial Club Attendees         |  250 |  400
-Industrial Club Attendees(workshop only) |   90 |  150
-Industrial and Other Non-Academic Attendees | 700 |  700
+Academic                 |  250 |  400
+Academic (workshop only) |   90 |  150
+Industrial Club          |  250 |  400
+Industrial Club (workshop only) |   90 |  150
+Industrial and Other Non-Academic  | 700 |  700
 
 **Early bird registration before 15th July**
 
