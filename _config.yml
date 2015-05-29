@@ -28,6 +28,7 @@ conference:
   - {date: 15, day: Tuesday, month: September, year: 2015}
   - {date: 16, day: Wednesday, month: September, year: 2015}
   - {date: 17, day: Thursday, month: September, year: 2015}
+  draft: Y # set to Y if the programme is draft only.
   
 # Build settings
 markdown: kramdown
