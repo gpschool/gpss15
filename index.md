@@ -12,7 +12,7 @@ layout: default
 {{ startdate.date }} {{ startdate.month }} - {{ enddate.date }} {{ enddate.month }} {{ startdate.year }}
 {% endif %}
 {% if site.conference.schoolphoto %}
-![][./assets/{{ site.conference.schoolphoto }}]
+![](./assets/{{ site.conference.schoolphoto }})
 {% endif %}
 {% if site.conference.hosturl %} [Hosts Local Page]({{ site.conference.hosturl }})<br>{% endif %}
 {% if site.conference.organizers %} organized by {% for person in site.conference.organizers %}[{{ person.name }}]({{ person.url }}){% if site.conference.organizers | size > 1 %}, {% endif %}{% endfor %}{% endif %}
