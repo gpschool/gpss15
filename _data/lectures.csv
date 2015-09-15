@@ -12,7 +12,7 @@ Monday,14,September,16:00,17:00,**Kernel Design**,./talks/gp_gpss15_slides_here.
 Tuesday,15,September,8:00,9:00,**Arrivals**,,,,,
 Tuesday,15,September,9:00,10:30,**Fitting Covariance and Multi-output Gaussian Processes**,./talks/gp_gpss15_session3.pdf,,[Neil Lawrence](http://inverseprobability.com), University of Sheffield,MkkeBmEZ8LE
 Tuesday,15,September,10:30,11:00,**Coffee Break**,,,,,
-Tuesday,15,September,11:00,12:00,**Sparse Gaussian Processes**,./labs/sparse_GPs.pdf,./labs/demo_sparse.ipynb,[James Hensman](http://staffwww.dcs.sheffield.ac.uk/people/J.Hensman/),University of Sheffield,
+Tuesday,15,September,11:00,12:00,**Sparse Gaussian Processes**,./talks/talk_james.pdf,./labs/demo_sparse.ipynb,[James Hensman](http://staffwww.dcs.sheffield.ac.uk/people/J.Hensman/),Lancaster University,
 Tuesday,15,September,12:00,12:45,**Gaussian Processes with non-Gaussian Likelihoods**,./talks/ep.pdf,,[Alan Saul](http://www.alansaul.com),University of Sheffield,
 Tuesday,15,September,12:45,13:30,**Lunch Break**,,,,,
 Tuesday,15,September,13:30,15:30,**Lab Session 2** Gaussian Process for Classification and Sparse Gaussian Processes,,./labs/GPSS_Lab2.ipynb,,,
