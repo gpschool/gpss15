@@ -22,7 +22,7 @@ Tuesday,15,September,18:00,20:00,**Social Event** (Group 1),,,,,
 Wednesday,16,September,8:30,9:00,**Arrivals**,,,,,
 Wednesday,16,September,9:00,10:30,**Global Optimization with Gaussian Processes**,./talks/gpgo-gpss2015.pdf,,[Javier González](http://javiergonzalezh.github.io/),University of Sheffield,rG10zqtu8F4
 Wednesday,16,September,10:30,11:00,**Coffee Break**,,,,,
-Wednesday,16,September,11:00,12:00,**Bayesian Optimization**,./talks/gp_gpss15_slides_here.pdf,,[Nando de Freitas](https://www.cs.ox.ac.uk/people/nando.defreitas/),"University of Oxford and Google DeepMind",
+Wednesday,16,September,11:00,12:00,**Bayesian Optimization**,./talks/gp_gpss15_slides_here.pdf,,[Nando de Freitas](https://www.cs.ox.ac.uk/people/nando.defreitas/),"University of Oxford and Google DeepMind",YB64VoGQsK8
 Wednesday,16,September,12:00,12:45,**Incorporating structural priors in Gaussian random field models**,./talks/GPSummerSchool_2015_DavidGinsbourger.pdf,,[David Ginsbourger](http://www.ginsbourger.ch/), IDIAP and University of Bern,
 Wednesday,16,September,12:45,13:30,**Lunch Break**,,,,
 Wednesday,16,September,13:30,15:30,**Lab Session 3** Bayesian Optimization with GPyOpt,,./labs/GPSS_Lab3.ipynb,,,
