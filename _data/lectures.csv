@@ -8,7 +8,7 @@ Monday,14,September,12:30,13:45,**Lunch Break**,,,,,
 Monday,14,September,13:45,15:30,**Lab Session 1** Gaussian Process Models with GPy,,./labs/GPSS_Lab1_gp.ipynb,,,
 Monday,14,September,13:45,15:30,**Lab Session 1** Gaussian Process Models with GP-LVM,,./labs/GPSS_Lab1_gplvm.ipynb,,,
 Monday,14,September,15:30,16:00,**Tea Break**,,,,,
-Monday,14,September,16:00,17:00,**Kernel Design**,./talks/gp_gpss15_slides_here.pdf,,[Nicolas Durrande](https://sites.google.com/site/nicolasdurrandehomepage/),Ecole de Mine de St Etienne,rOOMle1ZfD4
+Monday,14,September,16:00,17:00,**Kernel Design**,./talks/KernelDesign.pdf,,[Nicolas Durrande](https://sites.google.com/site/nicolasdurrandehomepage/),Ecole de Mine de St Etienne,rOOMle1ZfD4
 Tuesday,15,September,8:00,9:00,**Arrivals**,,,,,
 Tuesday,15,September,9:00,10:30,**Fitting Covariance and Multi-output Gaussian Processes**,./talks/gp_gpss15_session3.pdf,,[Neil Lawrence](http://inverseprobability.com), University of Sheffield,MkkeBmEZ8LE
 Tuesday,15,September,10:30,11:00,**Coffee Break**,,,,,
@@ -17,12 +17,12 @@ Tuesday,15,September,12:00,12:45,**Gaussian Processes with non-Gaussian Likeliho
 Tuesday,15,September,12:45,13:30,**Lunch Break**,,,,,
 Tuesday,15,September,13:30,15:30,**Lab Session 2** Gaussian Process for Classification and Sparse Gaussian Processes,,./labs/GPSS_Lab2.ipynb,,,
 Tuesday,15,September,15:30,16:00,**Tea Break**,,,,,
-Tuesday,15,September,16:00,17:00,"**Distributed Gaussian Processes**",./talks/gp_gpss15_slides_here.pdf,,[Marc Deisenroth](http://wp.doc.ic.ac.uk/sml/person/marc-deisenroth/),Imperial College,8bPq8AVJcnA
+Tuesday,15,September,16:00,17:00,"**Distributed Gaussian Processes**",./talks/Marc.pdf,,[Marc Deisenroth](http://wp.doc.ic.ac.uk/sml/person/marc-deisenroth/),Imperial College,8bPq8AVJcnA
 Tuesday,15,September,18:00,20:00,**Social Event** (Group 1),,,,,
 Wednesday,16,September,8:30,9:00,**Arrivals**,,,,,
 Wednesday,16,September,9:00,10:30,**Global Optimization with Gaussian Processes**,./talks/gpgo-gpss2015.pdf,,[Javier González](http://javiergonzalezh.github.io/),University of Sheffield,rG10zqtu8F4
 Wednesday,16,September,10:30,11:00,**Coffee Break**,,,,,
-Wednesday,16,September,11:00,12:00,**Bayesian Optimization**,./talks/gp_gpss15_slides_here.pdf,,[Nando de Freitas](https://www.cs.ox.ac.uk/people/nando.defreitas/),"University of Oxford and Google DeepMind",YB64VoGQsK8
+Wednesday,16,September,11:00,12:00,**Bayesian Optimization**,./talks/Nando.pdf,,[Nando de Freitas](https://www.cs.ox.ac.uk/people/nando.defreitas/),"University of Oxford and Google DeepMind",YB64VoGQsK8
 Wednesday,16,September,12:00,12:45,**Incorporating structural priors in Gaussian random field models**,./talks/GPSummerSchool_2015_DavidGinsbourger.pdf,,[David Ginsbourger](http://www.ginsbourger.ch/), IDIAP and University of Bern,yMZx6ZT1WbU
 Wednesday,16,September,12:45,13:30,**Lunch Break**,,,,
 Wednesday,16,September,13:30,15:30,**Lab Session 3** Bayesian Optimization with GPyOpt,,./labs/GPSS_Lab3.ipynb,,,
