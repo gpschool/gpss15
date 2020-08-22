@@ -1,13 +1,23 @@
 # Site settings
 title: Gaussian Process Summer School, 2015
-email: 
+author:
+  email: 
 description: > # this means to ignore newlines until "baseurl:"
   The 2015 Gaussian Process Summer School held at the University of Sheffield.
 baseurl: "/gpss15" # the subpath of your site, e.g. /blog/
 url: "http://gpss.cc" # the base hostname & protocol for your site
 twitter_username: datascienceshef
-github_username:  SheffieldML
+github_username:  gpschool
 facebook_page: gaussianprocesssummerschool
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: gpss
+
+
 analytics:
   google:
     tracking_id: UA-62991754-1
@@ -18,19 +28,23 @@ youtube:
 
 conference:
   hosts:
-  organizers:
-  - {name: Neil Lawrence, url: "http://inverseprobability.com"}
-  - {name: Javier Gonzalez, url: "http://javiergonzalezh.github.io/"}
-  - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
+  chairs:
+  - type:
+    people: 
+    - {given: Neil, family: Lawrence, url: "http://inverseprobability.com"}
+    - {given: Javier, family: Gonzalez, url: "http://javiergonzalezh.github.io/"}
+    - {given: Sheffield ML Group, url: "http://sheffieldml.github.io"}
   name: Gaussian Process Summer School
+  short_name: GPSS
+  full_name: Gaussian Process Summer School
   location: Pam Liversidge Building, PLB-E05, University of Sheffield, UK
   year: 2015
   month: September
   dates:
-  - {date: 14, day: Monday, month: September, year: 2015}
-  - {date: 15, day: Tuesday, month: September, year: 2015}
-  - {date: 16, day: Wednesday, month: September, year: 2015}
-  - {date: 17, day: Thursday, month: September, year: 2015}
+  - 2015-07-14
+  - 2015-07-15
+  - 2015-07-16
+  - 2015-07-17
   draft: Y # set to Y if the programme is draft only.
   
 # Build settings
