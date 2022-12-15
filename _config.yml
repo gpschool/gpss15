@@ -35,10 +35,10 @@ conference:
   year: 2015
   month: September
   dates:
-  - 2015-07-14
-  - 2015-07-15
-  - 2015-07-16
-  - 2015-07-17
+  - 2015-09-14
+  - 2015-09-15
+  - 2015-09-16
+  - 2015-09-17
   chairs:
   - type: Organizers
     people: 
