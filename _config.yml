@@ -5,7 +5,7 @@ author:
 description: > # this means to ignore newlines until "baseurl:"
   The 2015 Gaussian Process Summer School held at the University of Sheffield.
 baseurl: "/gpss15" # the subpath of your site, e.g. /blog/
-url: "http://gpss.cc" # the base hostname & protocol for your site
+url: "https://gpss.cc" # the base hostname & protocol for your site
 twitter_username: datascienceshef
 github_username:  gpschool
 facebook_page: gaussianprocesssummerschool
@@ -28,12 +28,6 @@ youtube:
 
 conference:
   hosts:
-  chairs:
-  - type:
-    people: 
-    - {given: Neil, family: Lawrence, url: "http://inverseprobability.com"}
-    - {given: Javier, family: Gonzalez, url: "http://javiergonzalezh.github.io/"}
-    - {given: Sheffield ML Group, url: "http://sheffieldml.github.io"}
   name: Gaussian Process Summer School
   short_name: GPSS
   full_name: Gaussian Process Summer School
@@ -45,7 +39,13 @@ conference:
   - 2015-07-15
   - 2015-07-16
   - 2015-07-17
-  draft: Y # set to Y if the programme is draft only.
+  chairs:
+  - type: Organizers
+    people: 
+    - {given: Neil, family: Lawrence, url: "https://inverseprobability.com"}
+    - {given: Javier, family: Gonzalez, url: "https://javiergonzalezh.github.io/"}
+    - {given: Sheffield ML Group, url: "https://sheffieldml.github.io"}
+  draft: N # set to Y if the programme is draft only.
   
 # Build settings
 markdown: kramdown
