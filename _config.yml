@@ -17,21 +17,32 @@ plugins:
 remote_theme: gpschool/jekyll-theme
 style: gpss
 
-
-analytics:
-  google:
-    tracking_id: UA-62991754-1
-
 youtube:
   height: 315
   width: 560
 
+ghub:
+  edit: true
+  repository: gpss15
+
+markdown: kramdown
+
+# Build settings
+future: true
+
+permalink: "/:categories/:title.html"
+
+analytics:
+  google:
+    tracking_id: UA-62991754-1 
+
 conference:
-  hosts:
-  name: Gaussian Process Summer School
+  draft: False
+  hide_tentative: True
   short_name: GPSS
   full_name: Gaussian Process Summer School
   location: Pam Liversidge Building, PLB-E05, University of Sheffield, UK
+  name: Gaussian Process Summer School
   year: 2015
   month: September
   dates:
@@ -45,8 +56,10 @@ conference:
     - {given: Neil, family: Lawrence, url: "https://inverseprobability.com"}
     - {given: Javier, family: Gonzalez, url: "https://javiergonzalezh.github.io/"}
     - {given: Sheffield ML Group, url: "https://sheffieldml.github.io"}
-  draft: N # set to Y if the programme is draft only.
+    
+previous_meeting:
+  name: GPSS 2014
+  url: "https://gpss.cc/gpss14
   
-# Build settings
-markdown: kramdown
+ 
 
