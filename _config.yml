@@ -1,13 +1,15 @@
 # Site settings
 title: Gaussian Process Summer School, 2015
-email: 
+author:
+  email: 
 description: > # this means to ignore newlines until "baseurl:"
   The 2015 Gaussian Process Summer School held at the University of Sheffield.
 baseurl: "/gpss15" # the subpath of your site, e.g. /blog/
 url: "https://gpss.cc" # the base hostname & protocol for your site
 twitter_username: datascienceshef
-github_username:  SheffieldML
+github_username:  gpschool
 facebook_page: gaussianprocesssummerschool
+
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
@@ -15,15 +17,14 @@ plugins:
 remote_theme: gpschool/jekyll-theme
 style: gpss
 
-
 youtube:
   height: 315
   width: 560
 
 ghub:
   edit: true
-  repository: gpss18
-  
+  repository: gpss15
+
 markdown: kramdown
 
 # Build settings
@@ -37,8 +38,8 @@ analytics:
    tracking_id: UA-62991754-1 # Google tracking ID if applicable
   
 conference:
-  draft: false
-  hide_tentative: true
+  draft: False
+  hide_tentative: True
   hosts:
   short_name: GPSS
   full_name:  Gaussian Process and Uncertainty Quantification Summer School  
@@ -53,14 +54,16 @@ conference:
   - 2015-09-15
   - 2015-09-16
   - 2015-09-17
-  draft: Y # set to Y if the programme is draft only.
   chairs:
   - type: Organizers
-    people:
-  - {name: Neil Lawrence, url: "https://inverseprobability.com"}
-  - {name: Javier Gonzalez, url: "https://javiergonzalezh.github.io/"}
-  - {name: Sheffield ML Group, url: "https://sheffieldml.github.io"}
+    people: 
+    - {given: Neil, family: Lawrence, url: "https://inverseprobability.com"}
+    - {given: Javier, family: Gonzalez, url: "https://javiergonzalezh.github.io/"}
+    - {given: Sheffield ML Group, url: "https://sheffieldml.github.io"}
+    
+previous_meeting:
+  name: GPSS 2014
+  url: "https://gpss.cc/gpss14
   
-# Build settings
-markdown: kramdown
+ 
 

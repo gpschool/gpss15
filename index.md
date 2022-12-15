@@ -1,23 +1,13 @@
 ---
-layout: default
+layout: home
+title: About
 ---
 
 
-**{{ site.conference.location }}**,
-{% assign startdate = site.conference.dates | first %}
-{% assign enddate = site.conference.dates | last %}
-{% if startdate.month == enddate.month %}
-{{ startdate.date }} - {{ enddate.date }} {{ startdate.month }} {{ startdate.year }}<br>
-{% else %}
-{{ startdate.date }} {{ startdate.month }} - {{ enddate.date }} {{ enddate.month }} {{ startdate.year }}
-{% endif %}
 {% if site.conference.schoolphoto %}
 ![](./assets/{{ site.conference.schoolphoto }})
 {% endif %}
-{% if site.conference.hosturl %} [Hosts Local Page]({{ site.conference.hosturl }})<br>{% endif %}
-{% if site.conference.organizers %} organized by {% for person in site.conference.organizers %}[{{ person.name }}]({{ person.url }}){% if site.conference.organizers | size > 1 %}, {% endif %}{% endfor %}{% endif %}
 
-{% if site.conference.hosts %}hosted by {% for person in site.conference.hosts %}[{{ person.name }}]({{ person.url }}){% if site.conference.hosts | size > 1 %}, {% endif %}{% endfor %}{% endif %}
 
 {% for date in site.conference.dates %}
 ## {{ date.day }} {{ date.date }} {{ date.month }} 
