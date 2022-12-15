@@ -4,34 +4,62 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   The 2015 Gaussian Process Summer School held at the University of Sheffield.
 baseurl: "/gpss15" # the subpath of your site, e.g. /blog/
-url: "http://gpss.cc" # the base hostname & protocol for your site
+url: "https://gpss.cc" # the base hostname & protocol for your site
 twitter_username: datascienceshef
 github_username:  SheffieldML
 facebook_page: gaussianprocesssummerschool
-analytics:
-  google:
-    tracking_id: UA-62991754-1
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: gpschool/jekyll-theme
+style: gpss
+
 
 youtube:
   height: 315
   width: 560
 
+ghub:
+  edit: true
+  repository: gpss18
+  
+markdown: kramdown
+
+# Build settings
+future: true
+
+permalink: "/:categories/:title.html"
+banner: 
+
+analytics:
+ google:
+   tracking_id: UA-62991754-1 # Google tracking ID if applicable
+  
 conference:
+  draft: false
+  hide_tentative: true
   hosts:
-  organizers:
-  - {name: Neil Lawrence, url: "http://inverseprobability.com"}
-  - {name: Javier Gonzalez, url: "http://javiergonzalezh.github.io/"}
-  - {name: Sheffield ML Group, url: "http://sheffieldml.github.io"}
+  short_name: GPSS
+  full_name:  Gaussian Process and Uncertainty Quantification Summer School  
+  room: Pam Liversidge Building, PLB-E05
+  venue: The University of Sheffield
+  location: Sheffield, UK
   name: Gaussian Process Summer School
-  location: Pam Liversidge Building, PLB-E05, University of Sheffield, UK
   year: 2015
   month: September
   dates:
-  - {date: 14, day: Monday, month: September, year: 2015}
-  - {date: 15, day: Tuesday, month: September, year: 2015}
-  - {date: 16, day: Wednesday, month: September, year: 2015}
-  - {date: 17, day: Thursday, month: September, year: 2015}
+  - 2015-09-14
+  - 2015-09-15
+  - 2015-09-16
+  - 2015-09-17
   draft: Y # set to Y if the programme is draft only.
+  chairs:
+  - type: Organizers
+    people:
+  - {name: Neil Lawrence, url: "https://inverseprobability.com"}
+  - {name: Javier Gonzalez, url: "https://javiergonzalezh.github.io/"}
+  - {name: Sheffield ML Group, url: "https://sheffieldml.github.io"}
   
 # Build settings
 markdown: kramdown
