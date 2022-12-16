@@ -17,41 +17,53 @@ plugins:
 remote_theme: gpschool/jekyll-theme
 style: gpss
 
-
-analytics:
-  google:
-    tracking_id: UA-62991754-1
-
 youtube:
   height: 315
   width: 560
 
+ghub:
+  edit: true
+  repository: gpss15
+
+markdown: kramdown
+
+# Build settings
+future: true
+
+permalink: "/:categories/:title.html"
+banner: 
+
+analytics:
+ google:
+   tracking_id: UA-62991754-1 # Google tracking ID if applicable
+  
 conference:
+  draft: False
+  hide_tentative: True
   hosts:
-  chairs:
-  - type:
-    people: 
-    - {given: Neil, family: Lawrence, url: "http://inverseprobability.com"}
-    - {given: Javier, family: Gonzalez, url: "http://javiergonzalezh.github.io/"}
-    - {given: Sheffield ML Group, url: "http://sheffieldml.github.io"}
-  name: Gaussian Process Summer School
   short_name: GPSS
-  full_name: Gaussian Process Summer School
-  location: Pam Liversidge Building, PLB-E05, University of Sheffield, UK
+  full_name:  Gaussian Process and Uncertainty Quantification Summer School  
+  room: Pam Liversidge Building, PLB-E05
+  venue: The University of Sheffield
+  location: Sheffield, UK
+  name: Gaussian Process Summer School
   year: 2015
   month: September
   dates:
-  - 2015-07-14
-  - 2015-07-15
-  - 2015-07-16
-  - 2015-07-17
-  draft: Y # set to Y if the programme is draft only.
-
-
+  - 2015-09-14
+  - 2015-09-15
+  - 2015-09-16
+  - 2015-09-17
+  chairs:
+  - type: Organizers
+    people: 
+    - {given: Neil, family: Lawrence, url: "https://inverseprobability.com"}
+    - {given: Javier, family: Gonzalez, url: "https://javiergonzalezh.github.io/"}
+    - {given: Sheffield ML Group, url: "https://sheffieldml.github.io"}
+    
 previous_meeting:
   name: GPSS 2014
-  url: "https://gpss.cc/gpss14"
-
-# Build settings
-markdown: kramdown
+  url: "https://gpss.cc/gpss14
+  
+ 
 
